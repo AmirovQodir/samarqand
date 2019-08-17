@@ -20,7 +20,9 @@ const routes: Routes = [
   { path: 'time', loadChildren: './time-table/time-table.module#TimeTablePageModule' },
   { path: 'participants', loadChildren: './participants/participants.module#ParticipantsPageModule' },
   { path: 'connect', loadChildren: './connect/connect.module#ConnectPageModule' },
-  { path: 'settings', loadChildren: './settings/settings.module#SettingsPageModule' }
+  { path: 'settings', loadChildren: './settings/settings.module#SettingsPageModule' },
+  { path: 'language-popover', loadChildren: './language-popover/language-popover.module#LanguagePopoverPageModule' }
+
 ];
 
 @NgModule({

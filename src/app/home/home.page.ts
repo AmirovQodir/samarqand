@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { PopoverController } from '@ionic/angular';
+import { LanguagePopoverPage } from '../language-popover/language-popover.page';
 
 @Component({
   selector: 'app-home',
@@ -7,6 +9,15 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  constructor() {}
+  constructor(
+    private popoverCtrl: PopoverController
+  ) {}
 
+  async openLanguagePopover(ev) {
+    const popover = await this.popoverCtrl.create({
+      component: LanguagePopoverPage,
+      event: ev
+    });
+    await popover.present();
+  }
 }
