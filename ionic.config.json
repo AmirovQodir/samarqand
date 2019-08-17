@@ -1,0 +1,7 @@
+{
+  "name": "samarqand",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
