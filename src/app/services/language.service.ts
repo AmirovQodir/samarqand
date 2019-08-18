@@ -26,8 +26,8 @@ export class LanguageService {
  
   getLanguages() {
     return [
-      { text: 'English', value: 'en', img: 'assets/imgs/uk.svg' },
       { text: 'O\'zbekcha', value: 'uz', img: 'assets/imgs/uzbekistan.svg' },
+      { text: 'English', value: 'en', img: 'assets/imgs/uk.svg' },
     ];
   }
  
