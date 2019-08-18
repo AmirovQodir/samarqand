@@ -25,7 +25,10 @@ export function createTranslateLoader(http: HttpClient) {
   entryComponents: [],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(),
+    IonicModule.forRoot({
+      rippleEffect: false,
+      mode: 'md'
+    }),
     AppRoutingModule,
     HttpClientModule,
     IonicStorageModule.forRoot(),
