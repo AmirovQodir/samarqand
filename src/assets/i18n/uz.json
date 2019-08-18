@@ -1,5 +1,13 @@
 {
-  "HOME" : {
-    "title" : "Sharq taronalari uz"
+  "HOME": {
+    "title": "Sharq taronalari"
+  },
+  "MENU": {
+    "home": "Bosh sahifa",
+    "about": "Festival haqida",
+    "place": "Festival joyi",
+    "program": "Dastur",
+    "participants": "Ishtirokchilar",
+    "contact": "Bog'lanish"
   }
 }
