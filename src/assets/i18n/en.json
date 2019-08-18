@@ -1,5 +1,13 @@
 {
-  "HOME" : {
-    "title" : "Sharq taronalari en"
+  "HOME": {
+    "title": "Sharq taronalari"
+  },
+  "MENU": {
+    "home": "Home",
+    "about": "About Festival",
+    "place": "Festival place",
+    "program": "Time table",
+    "participants": "Participants",
+    "contact": "Contact"
   }
 }

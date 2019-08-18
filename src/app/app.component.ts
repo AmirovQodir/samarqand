@@ -13,37 +13,32 @@ import { LanguageService } from './services/language.service';
 export class AppComponent {
   public appPages = [
     {
-      title: 'Home',
+      title: 'MENU.home',
       url: '/home',
       icon: 'home'
     },
     {
-      title: 'List',
-      url: '/list',
-      icon: 'list'
-    },
-    {
-      title: 'About Festeval',
+      title: 'MENU.about',
       url: '/about',
-      icon: 'information'
+      icon: 'information-circle'
     },
      {
-      title: 'Festeval Pleace',
+      title: 'MENU.place',
       url: '/pleace',
       icon: 'podium'
     },
      {
-      title: 'Time Table',
+      title: 'MENU.program',
       url: '/time',
-      icon: 'time'
+      icon: 'clock'
     },
      {
-      title: 'Participants',
+      title: 'MENU.participants',
       url: '/participants',
       icon: 'contacts'
     },
      {
-      title: 'Contact',
+      title: 'MENU.contact',
       url: '/connect',
       icon: 'contact'
     }
