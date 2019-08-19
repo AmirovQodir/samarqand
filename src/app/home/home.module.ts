@@ -14,7 +14,9 @@ const routes: Routes = [
   { path: 'participants', loadChildren: './page/participants/participants.module#ParticipantsPageModule' },
   { path: 'connect', loadChildren: './page/connect/connect.module#ConnectPageModule' },
   { path: 'settings', loadChildren: './page/settings/settings.module#SettingsPageModule' },
-  { path: 'language-popover', loadChildren: './page/language-popover/language-popover.module#LanguagePopoverPageModule' }
+  { path: 'language-popover', loadChildren: './page/language-popover/language-popover.module#LanguagePopoverPageModule' },
+  { path: 'admen', loadChildren: './admen/admen.module#AdmenPageModule' }
+
  ];
 
 @NgModule({

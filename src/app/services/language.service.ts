@@ -28,6 +28,7 @@ export class LanguageService {
     return [
       { text: 'O\'zbekcha', value: 'uz', img: 'assets/imgs/uzbekistan.svg' },
       { text: 'English', value: 'en', img: 'assets/imgs/uk.svg' },
+      { text: 'Русский', value: 'ru', img: 'assets/imgs/russia.svg' }
     ];
   }
  

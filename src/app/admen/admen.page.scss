@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Lexend+Deca|Open+Sans&display=swap');
+$primaaty: #1e1bce;
+ion-grid {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 1000;
+    ion-img {
+        margin: 15px auto;
+        width: 200px;
+    }
+    h3 {
+        color: $primaaty;
+        margin: 0;
+        display: inline-block;
+    }
+}

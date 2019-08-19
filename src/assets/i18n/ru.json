@@ -1,0 +1,15 @@
+{
+    "HOME": {
+      "title": "Sharq taronalari",
+      "download": "Скачать SamTour",
+      "exit": "Выход"
+    },
+    "MENU": {
+      "home": "Главная",
+      "about": "О фестивале",
+      "place": "Место фестиваля",
+      "program": "Программа",
+      "participants": "Участники",
+      "contact": "Контакт"
+    }
+  }
