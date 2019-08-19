@@ -22,7 +22,8 @@ const routes: Routes = [
   { path: 'connect', loadChildren: './connect/connect.module#ConnectPageModule' },
   { path: 'settings', loadChildren: './settings/settings.module#SettingsPageModule' },
   { path: 'language-popover', loadChildren: './language-popover/language-popover.module#LanguagePopoverPageModule' },
-  { path: 'participant/:id', loadChildren: './participant/participant.module#ParticipantPageModule' }
+  { path: 'participant/:id', loadChildren: './participant/participant.module#ParticipantPageModule' },  { path: 'admen', loadChildren: './admen/admen.module#AdmenPageModule' }
+
 
 
 ];

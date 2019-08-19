@@ -28,8 +28,20 @@
 
 ion-toolbar {
   --min-height: 50px;
-  .title-md {
-    font-size: 16px;
-    padding-left: 4px;
-  }
+}
+
+$primaaty: var(--ion-color-primary);
+
+ion-toolbar {
+  vertical-align: middle;
+  height: 50px;
+  --background: $primaaty;
+  background: $primaaty;
+  color: white;
+}
+
+ion-title {
+  text-align: center;
+  font-size: 25px;
+  margin-left: -48px;
 }
