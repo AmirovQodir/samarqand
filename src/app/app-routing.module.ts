@@ -23,7 +23,7 @@ const routes: Routes = [
   { path: 'settings', loadChildren: './settings/settings.module#SettingsPageModule' },
   { path: 'language-popover', loadChildren: './language-popover/language-popover.module#LanguagePopoverPageModule' },
   { path: 'participant/:id', loadChildren: './participant/participant.module#ParticipantPageModule' },
-  { path: 'admen', loadChildren: './admen/admen.module#AdmenPageModule' }
+  { path: 'admen', loadChildren: './admen/admen.module#AdmenPageModule' },
   { path: 'participant/:id', loadChildren: './participant/participant.module#ParticipantPageModule' },
   { path: 'boglanish', loadChildren: './boglanish/boglanish.module#BoglanishPageModule' }
 
