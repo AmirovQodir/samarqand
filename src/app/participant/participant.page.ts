@@ -32,7 +32,7 @@ export class ParticipantPage implements OnInit {
           this.data = item;
           setTimeout(() => {
             this.isLoaded = true
-          }, 300);
+          }, 3000);
       })
   }
 
