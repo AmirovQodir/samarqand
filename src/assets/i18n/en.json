@@ -1,13 +1,15 @@
 {
   "HOME": {
-    "title": "Sharq taronalari"
+    "title": "Sharq Festival",
+    "download": "Download SamTour",
+    "exit": "Exit"
   },
   "MENU": {
     "home": "Home",
     "about": "About Festival",
-    "place": "Festival place",
-    "program": "Time table",
-    "participants": "Participants",
+    "place": "Festival Place",
+    "program": "Time Table",
+    "participants": "Partici pants",
     "contact": "Contact"
   }
 }

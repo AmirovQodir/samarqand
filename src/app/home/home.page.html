@@ -1,10 +1,9 @@
 <ion-header>
-  <ion-toolbar color="primary">
+  <ion-toolbar>
     <ion-buttons slot="start">
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
     <ion-title>
-      <!-- Sharq Festeval  -->
       {{ 'HOME.title' | translate }}
     </ion-title>
     <ion-buttons slot="end">
@@ -14,6 +13,83 @@
     </ion-buttons>
   </ion-toolbar>
 </ion-header>
+
 <ion-content>
-  <ion-img src="assets/imgs/logo.jpg"></ion-img>
+  <ion-grid style="background-color: rgb(255, 255, 255); height: 100%; display: flex; flex-flow: column; margin: 0; padding: 0;">
+
+    <div class="imagecontent">
+      <ion-list>
+        <ion-img src="assets/imgs/logo3.png"></ion-img>
+      </ion-list>
+    </div>
+
+    <div class="container">
+      <ion-grid>
+        <ion-row>
+          <ion-col size="3">
+            <div routerLink="/about">
+              <ion-icon name="musical-notes" ></ion-icon>
+              <h3>{{ 'MENU.about' | translate }}</h3>
+            </div>
+          </ion-col>
+          <ion-col size="3">
+            <div routerLink="/pleace">
+              <ion-icon name="trophy"></ion-icon>
+              <h3>{{ 'MENU.place' | translate }}</h3>
+            </div>
+          </ion-col>
+          <ion-col size="3">
+            <div  routerLink="/time">
+              <ion-icon name="calendar" ></ion-icon>
+              <h3>{{ 'MENU.program' | translate }}</h3>
+            </div>
+          </ion-col>
+          <ion-col size="3">
+            <div  routerLink="/participants">
+              <ion-icon name="people" ></ion-icon>
+              <h3>{{ 'MENU.participants' | translate }}</h3>
+            </div>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </div>
+
+    <div class="download" >
+      <div>
+        <a href="https://play.google.com/store/apps/details?id=uz.samtuit.samapp" target="_blank">
+          <h2>{{ 'HOME.download' | translate }}</h2>
+          <ion-icon name="download"></ion-icon>
+        </a>
+      </div>
+    </div>
+
+    <div class="contact">
+      <ion-grid>
+        <ion-row>
+          <ion-col size="4">
+            <div>
+              <ion-icon name="flame"></ion-icon>
+              <h3>Admin</h3>
+            </div>
+          </ion-col>
+          <ion-col size="4">
+            <div  routerLink="/connect">
+              <ion-icon name="person" ></ion-icon>
+              <h3>{{ 'MENU.contact' | translate }}</h3>
+            </div>
+          </ion-col>
+          <ion-col size="4">
+            <div>
+              <ion-icon name="walk"></ion-icon>
+              <h3>{{ 'HOME.exit' | translate }}</h3>
+            </div>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+      <h2>Samarkand 2019</h2>
+    </div>
+
+  </ion-grid>
+
+
 </ion-content>

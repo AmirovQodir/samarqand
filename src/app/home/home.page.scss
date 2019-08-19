@@ -1,9 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Lexend+Deca|Open+Sans&display=swap');
+
+* {
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 1000;
+}
+
+$primaaty: #1e1bce; 
 .language-flag {
-  width: 20px;
-  height: 20px;
+  width: 25px;
+  height: 25px;
   box-sizing: content-box;
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
   border: 2px solid white;
   border-radius: 50%;
+}
+ion-toolbar {
+  margin-top: 8px;
+  vertical-align: middle;
+  height: 60px;
+}
+ion-header {
+  box-shadow: none;
+}
+ion-title {
+  text-align: center;
+  font-size: 25px;
+}
+
+ion-content {
+  .imagecontent {
+    width: 100%;
+    position: relative;
+  }
+  
+  ion-img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .container {
+    position: relative;
+    margin: 20px 10px;
+    text-align: center;
+    vertical-align: middle;
+
+    ion-icon {
+      padding: 12px;
+      background-color: $primaaty;
+      font-size: 25px;
+      border-radius: 50%;
+      color: white;
+    }
+
+    h3 {
+      font-size: 16px;
+      margin: 0;
+      font-family: 'Lexend Deca', sans-serif;
+      color: $primaaty;
+      
+    }
+  }
+
+  .download {
+    background: url('/assets/imgs/download.png');
+    padding: 53px 0;
+    text-align: center;
+    vertical-align: middle;
+    div {
+      vertical-align: middle;
+      padding: 5px;
+      background-color: white;
+      margin: 0 30px;
+      border-radius: 50px;
+      position: relative;
+      border: .5px solid #000;
+
+      h2 {
+        display: inline-block;
+        color: $primaaty;
+        margin: 0;
+        margin-left: -30px;
+        padding: 8px 0;
+      }
+      ion-icon {
+        position: absolute;
+        top: 20%;
+        right: 5%;
+        padding: 8px;
+        background-color: $primaaty;
+        color: white;
+        border-radius: 20px;
+        font-size: 15px;
+        text-align: center;
+      }
+    }
+  }
+  .contact {
+    position: relative;
+    background-color: $primaaty;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    
+    ion-icon {
+      padding: 12px;
+      font-size: 35px;
+      border-radius: 50%;
+      color: white;
+    }
+
+    h3 {
+      margin: 0;
+      font-family: 'Lexend Deca', sans-serif;
+      color: white;
+      font-size: 20px;
+      margin-bottom: 19px;
+    }
+    h2 {
+      position: absolute;
+      bottom: 5px;
+      left: 33vw;
+      margin: 0 auto;
+      margin-top: 30px;
+      font-size: 15px;
+      color: rgba(240, 248, 255, 0.527)
+    }
+  }
+
 }
