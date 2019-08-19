@@ -1,6 +1,8 @@
 {
   "HOME": {
-    "title": "Sharq taronalari"
+    "title": "Sharq taronalari",
+    "download": "Download SamTour",
+    "exit": "Chiqish"
   },
   "MENU": {
     "home": "Bosh sahifa",
