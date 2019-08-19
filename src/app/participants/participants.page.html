@@ -1,9 +1,21 @@
 <ion-header>
   <ion-toolbar>
+      <ion-buttons slot="start">
+          <ion-back-button defaultHref="home"></ion-back-button>
+        </ion-buttons>
     <ion-title>Participants</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-
+  <ion-list>
+    <ion-item *ngFor="let participant of participants" [routerLink]="'/participant/' + participant.id">
+        <ion-avatar slot="start">
+            <img [src]="'assets/imgs/participants/' + participant.flag">
+        </ion-avatar>
+        <ion-label>
+          {{participant.name}}
+        </ion-label>
+    </ion-item>
+  </ion-list>
 </ion-content>
