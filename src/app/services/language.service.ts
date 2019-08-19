@@ -13,8 +13,8 @@ export class LanguageService {
   constructor(private translate: TranslateService, private storage: Storage) { }
  
   setInitialAppLanguage() {
-    this.translate.setDefaultLang('uz');
-    this.setLanguage('uz');
+    this.translate.setDefaultLang('en');
+    this.setLanguage('en');
  
     this.storage.get(LNG_KEY).then(val => {
       if (val) {
