@@ -39,7 +39,7 @@ export class AppComponent {
     },
      {
       title: 'MENU.contact',
-      url: '/connect',
+      url: '/boglanish',
       icon: 'contact'
     }
 
