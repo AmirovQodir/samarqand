@@ -41,4 +41,9 @@ export class HomePage {
     });
     await popover.present();
   }
+
+  onExitApp() {
+      navigator['app'].exitApp();
+  }
+
 }

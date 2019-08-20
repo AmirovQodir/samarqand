@@ -69,7 +69,7 @@
           <ion-col size="4">
             <div  routerLink="/admen">
               <ion-icon name="flame"></ion-icon>
-              <h3>Partnior</h3>
+              <h3>{{ 'MENU.admen' | translate }}</h3>
             </div>
           </ion-col>
           <ion-col size="4">
@@ -79,7 +79,7 @@
             </div>
           </ion-col>
           <ion-col size="4">
-            <div>
+            <div (click)="onExitApp()" tappable>
               <ion-icon name="walk"></ion-icon>
               <h3>{{ 'HOME.exit' | translate }}</h3>
             </div>
