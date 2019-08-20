@@ -37,6 +37,11 @@ export class AppComponent {
       url: '/participants',
       icon: 'contacts'
     },
+    {
+      title: 'MENU.admen',
+      url: '/admen',
+      icon: 'flame'
+    },
      {
       title: 'MENU.contact',
       url: '/boglanish',
